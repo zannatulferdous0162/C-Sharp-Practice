@@ -17,6 +17,8 @@ namespace V_20_anisBRO
 
             Console.Write("number2 = ");
             number2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("number2 = ");
+            number2 = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("number3 = ");
             number3 = Convert.ToInt32(Console.ReadLine());
@@ -25,9 +27,15 @@ namespace V_20_anisBRO
             Console.WriteLine($"sum = {sum}");
 
             average = (double)sum / 3;
-            Console.WriteLine($"average = {average}");
+            Console.WriteLine($"average = {average.ToString("F2")}");
 
+            //vedio 21 
+            //triangle = 0.5 * base * height
 
+            double baseArea, heightArea, traingleArea;
+            Console.WriteLine("")
+
+                //
         }
     }
 }
