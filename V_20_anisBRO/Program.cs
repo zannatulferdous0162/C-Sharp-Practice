@@ -74,6 +74,10 @@ namespace V_20_anisBRO
             Console.WriteLine($"Fahrenheit = {fahrenheit:F2} Degress");
             */
 
+            //Vedio 25
+            int number = 20;
+            number += 5;
+            Console.WriteLine($"{number}");
 
 
         }
